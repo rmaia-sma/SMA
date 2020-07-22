@@ -32,17 +32,18 @@ Create the button that will have an event like this:
         $JOB:ADD,CURRENT,<Schedule name>,<Job Name>,<Frequency name>,Report=${REPORT};Schedule=${SCHEDULE};DateINI=${DATEINI};DateEnd=${DATEEND};EMAIL=${SM.USER.EMAIL};SENDEMAIL=${SENDEMAIL}
 ```
 Where:
-Report=${REPORT} (Required field) is a List field that contains a list of the reports;
 
-SENDEMAIL=${SENDEMAIL} (Required field) is a List field that must contain Yes and No as options to tell the script to send the email with the PDF file or not; 
+* Report=${REPORT} (Required field) is a List field that contains a list of the reports;
 
-Schedule=${SCHEDULE} is a Schedule Master field;
+* SENDEMAIL=${SENDEMAIL} (Required field) is a List field that must contain Yes and No as options to tell the script to send the email with the PDF file or not; 
 
-DateINI=${DATEINI} is a Date field that can be used as starting date for the information in the report;
+* Schedule=${SCHEDULE} is a Schedule Master field;
 
-DateEnd=${DATEEND} is a Date field that can be used as the end date for the information in the report;
+* DateINI=${DATEINI} is a Date field that can be used as starting date for the information in the report;
 
-EMAIL=${SM.USER.EMAIL} (can be a field in Self-Service; in this case we are using the current Solution Manager user's email) is the email address of the the person that will get the email;
+* DateEnd=${DATEEND} is a Date field that can be used as the end date for the information in the report;
+
+* EMAIL=${SM.USER.EMAIL} (can be a field in Self-Service; in this case we are using the current Solution Manager user's email) is the email address of the the person that will get the email;
 
 
 # Disclaimer
