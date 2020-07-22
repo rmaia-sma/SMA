@@ -9,7 +9,7 @@ A PowerShell script that runs OpCon reports in batch mode, allowing the user to 
 * OpCon Self-Service
 
 # Instructions
-[![Steps for Script and Job Setup](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)]
+## Steps for Script and Job Setup
 
 Paste or import the script into the OpCon Scripts Repository and add a job into a Schedule.
 
@@ -27,7 +27,7 @@ The following line shows an example of the Arguments field in the Job Details ta
 
 Add an On Request frequency.
 
-[![Steps for Self-Service (Optional)]
+## Steps for Self-Service (Optional)
 
 If desired, the user can setup a Self-Service button to run this report.
 Create the button that will have an event like this:
