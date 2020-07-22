@@ -33,10 +33,15 @@ Create the button that will have an event like this:
 ```
 Where:
 Report=${REPORT} (Required field) is a List field that contains a list of the reports;
+
 SENDEMAIL=${SENDEMAIL} (Required field) is a List field that must contain Yes and No as options to tell the script to send the email with the PDF file or not; 
+
 Schedule=${SCHEDULE} is a Schedule Master field;
+
 DateINI=${DATEINI} is a Date field that can be used as starting date for the information in the report;
+
 DateEnd=${DATEEND} is a Date field that can be used as the end date for the information in the report;
+
 EMAIL=${SM.USER.EMAIL} (can be a field in Self-Service; in this case we are using the current Solution Manager user's email) is the email address of the the person that will get the email;
 
 
