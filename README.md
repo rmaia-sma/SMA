@@ -9,7 +9,7 @@ A PowerShell script that runs OpCon reports in batch mode, allowing the user to 
 * OpCon Self-Service
 
 # Instructions
-[![Steps for Script and Job Setup]
+[![Steps for Script and Job Setup](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)]
 
 Paste or import the script into the OpCon Scripts Repository and add a job into a Schedule.
 
