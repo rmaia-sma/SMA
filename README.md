@@ -9,12 +9,16 @@ A PowerShell script that runs OpCon reports in batch mode, allowing the user to 
 * OpCon Self-Service
 
 # Instructions
-* Steps for Script and Job Setup
+Steps for Script and Job Setup
 
 Paste or import the script into the OpCon Scripts Repository and add a job into a Schedule.
+
 The script has several different parameters, allowing the user to use it without having to make too many changes.
+
 There are only 2 required parameters: -ReportName and -password (this is the password of the account that will send the email).
+
 Check the OpCon documentation for more information on report names (Ex: Comparative Job Execution Statistics => admin03)
+
 The following line shows an example of the Arguments field in the Job Details tab (in this case we are using Instance Properties):
 
 ```
@@ -23,7 +27,7 @@ The following line shows an example of the Arguments field in the Job Details ta
 
 Add an On Request frequency.
 
-* Steps for Self-Service (Optional)
+Steps for Self-Service (Optional)
 
 If desired, the user can setup a Self-Service button to run this report.
 Create the button that will have an event like this:
